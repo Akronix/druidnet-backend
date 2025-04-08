@@ -1,0 +1,13 @@
+{
+  "name": "druidnet-server",
+  "version": "0.0.1",
+  "description": "Druidnet backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --watch ./server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mariadb": "^3.4.0"
+  }
+}
