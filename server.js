@@ -1,4 +1,6 @@
 const express = require("express");
+//~ const fs = require('fs');
+
 const app = express();
 
 const hostname = '0.0.0.0'; //const hostname = "backend.druidnet.es";
@@ -28,23 +30,32 @@ const pool = mariadb.createPool({
   connectionLimit: 5
 });
 
-app.get("/database/lastupdate", (req, res) => {
-  // SELECT UPDATE_TIME FROM information_schema.tables WHERE TABLE_SCHEMA = 'druidnet' LIMIT 1; 
-  // Lo cambiaría para leer de un fichero con la última fecha o versión de datos que yo elija, que puede ser un entero con la fecha perfectamente y que también diga lo que hay que cambiar, tipo:
-  //   - databaseNo: 202403240027
-  //   - SQL: true o bien - SQL: - Plant
-  //   - images:
-  //      - gentiana_lutea
+//~ app.get("/database/lastupdate", (req, res) => {
+  //~ // SELECT UPDATE_TIME FROM information_schema.tables WHERE TABLE_SCHEMA = 'druidnet' LIMIT 1; 
+  //~ // Lo cambiaría para leer de un fichero con la última fecha o versión de datos que yo elija, que puede ser un entero con la fecha perfectamente y que también diga lo que hay que cambiar, tipo:
+  //~ //   - databaseNo: 202403240027
+  //~ //   - SQL: true o bien - SQL: - Plant
+  //~ //   - images:
+  //~ //      - gentiana_lutea
   
-  obj = {"versiondb": 202403240027,
-        "plants": true,
-        "biblio": true,
-        "images": ["gentiana_lutea"]
-        }
+  //~ obj = readJSON('dbinfo.json');
   
-  res.json(obj);
+  //~ res.json(obj);
 
-});
+//~ });
+
+//~ function readJSON(fileName) {
+    //~ try {
+        //~ const data = fs.readFileSync(fileName, 'utf-8');
+        //~ const jsonData = JSON.parse(data);
+        //~ return(jsonData);
+    //~ } catch (error) {
+        //~ console.error('Error reading file:', error);
+    //~ }
+//~ }
+
+// Make static dbinfo available
+app.use('/dbinfo.json', express.static("static/dbinfo.json"))
 
 // Make static images available
 app.use('/images', express.static("static/images"));
