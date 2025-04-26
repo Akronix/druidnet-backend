@@ -60,7 +60,8 @@ app.use('/dbinfo.json', express.static("static/dbinfo.json"))
 // Make static images available
 app.use('/images', express.static("static/images"));
 
-
+// Make static credits.md available
+app.use('/credits.md', express.static("static/credits.md"))
 
 app.get("/database/allplants", fetchAllPlants)
 
