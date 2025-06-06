@@ -72,10 +72,12 @@ async function fetchAllPlants (req, res) {
       conn = await pool.getConnection();
       const plants = await conn.query("SELECT * FROM Plant as p ORDER BY plantId ASC");
       plants.forEach((plant) => plant.toxic = !!plant.toxic)
-      const confusions = await conn.query("SELECT * FROM `Confusion`");
+      let confusions = await conn.query("SELECT * FROM `Confusion`");
+      confusions = confusions.map((confusion) => {confusion.latin_name = convertPlantLinks(confusion.latin_name); confusion.caption_text = convertPlantLinks(confusion.caption_text); return confusion})
       const names = await conn.query("SELECT * FROM `Name`");
       names.forEach ((name) => name.isDisplayName = !!name.isDisplayName)
-      const usages = await conn.query("SELECT * FROM `Usage`");
+      let usages = await conn.query("SELECT * FROM `Usage`");
+      usages = usages.map((usage) => {usage.text = convertPlantLinks(usage.text); return usage});
       
       const plantRes = {plants, confusions, names, usages}  
       
@@ -105,4 +107,51 @@ async function fetchAllBiblio (req, res) {
     } finally {
       if (conn) conn.release(); // Release the connection back to the pool
     }
+}
+
+/**
+ * Converts internal wiki-like links to Druidnet deep links.
+ * Normalizes the plant name for the URL: spaces are converted to underscores.
+ * The display text uses spaces.
+ *
+ * @param {string} text The input string containing the markdown-like links.
+ * @returns {string} The string with converted links.
+ */
+function convertPlantLinks(text) {
+  if (text) {
+    // Regex to match [[ Plant_Name ]] or [[ Plant Name ]]
+    // Group 1: 'Plant_Name' or 'Plant Name' (can contain spaces or underscores)
+    const simpleLinkRegex = /\[\[\s*([A-Za-z0-9\s_]+)\s*\]\]/g;
+
+    // Regex to match [[ Plant_Name | Display Name ]] or [[ Plant Name | Display Name ]]
+    // Group 1: 'Plant_Name' or 'Plant Name' (can contain spaces or underscores)
+    // Group 2: 'Display Name'
+    const aliasedLinkRegex = /\[\[\s*([A-Za-z0-9\s_]+)\s*\|\s*([^\]]+?)\s*\]\]/g;
+
+    let convertedText = text;
+
+    // IMPORTANT: Process aliased links first, as they are more specific
+    convertedText = convertedText.replace(aliasedLinkRegex, (match, plantNameRaw, displayName) => {
+        // 1. For the URL: Replace spaces with underscores, then ensure underscores are encoded.
+        const urlSafePlantName = plantNameRaw.trim().replace(/\s/g, '_');
+
+        // 2. For the Display Name: Use the provided displayName, trimmed.
+        return `[${displayName.trim()}](druidnet://druidnet.org/plant_sheet/${encodeURIComponent(urlSafePlantName)})`;
+    });
+
+    // Process simple links next
+    convertedText = convertedText.replace(simpleLinkRegex, (match, plantNameRaw) => {
+        // 1. For the URL: Replace spaces with underscores, then ensure underscores are encoded.
+        const urlSafePlantName = plantNameRaw.trim().replace(/\s/g, '_');
+
+        // 2. For the Display Name: Replace underscores with spaces for readability.
+        const displayText = plantNameRaw.trim().replace(/_/g, ' ');
+
+        return `[${displayText}](druidnet://druidnet.org/plant_sheet/${encodeURIComponent(urlSafePlantName)})`;
+    });
+
+    return convertedText;
+  } else {
+    return text; // Return the original text if it's falsy
+  }
 }
