@@ -1,10 +1,12 @@
+require('dotenv').config(); // Load .env file variables into process.env
+
 const express = require("express");
 //~ const fs = require('fs');
 
 const app = express();
 
-const hostname = '0.0.0.0'; //const hostname = "backend.druidnet.es";
-const port = 5555;
+const hostname = process.env.HOSTNAME;
+const port = process.env.PORT;
 
 //~ const server = createServer((req, res) => {
   //~ res.statusCode = 200;
@@ -23,36 +25,12 @@ app.listen(port, hostname, () => {
 const mariadb = require('mariadb');
 
 const pool = mariadb.createPool({
-  host: 'localhost', // your host
-  user: 'druidnet', // your username
-  password: 'druidnet02042025', // your password
-  database: 'druidnet',
-  connectionLimit: 5
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_DATABASE,
+  connectionLimit: parseInt(process.env.DB_CONNECTION_LIMIT || '5')
 });
-
-//~ app.get("/database/lastupdate", (req, res) => {
-  //~ // SELECT UPDATE_TIME FROM information_schema.tables WHERE TABLE_SCHEMA = 'druidnet' LIMIT 1; 
-  //~ // Lo cambiaría para leer de un fichero con la última fecha o versión de datos que yo elija, que puede ser un entero con la fecha perfectamente y que también diga lo que hay que cambiar, tipo:
-  //~ //   - databaseNo: 202403240027
-  //~ //   - SQL: true o bien - SQL: - Plant
-  //~ //   - images:
-  //~ //      - gentiana_lutea
-  
-  //~ obj = readJSON('dbinfo.json');
-  
-  //~ res.json(obj);
-
-//~ });
-
-//~ function readJSON(fileName) {
-    //~ try {
-        //~ const data = fs.readFileSync(fileName, 'utf-8');
-        //~ const jsonData = JSON.parse(data);
-        //~ return(jsonData);
-    //~ } catch (error) {
-        //~ console.error('Error reading file:', error);
-    //~ }
-//~ }
 
 // Make static dbinfo available
 app.use('/dbinfo.json', express.static("static/dbinfo.json"))
