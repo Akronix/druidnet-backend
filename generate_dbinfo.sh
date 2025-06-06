@@ -52,6 +52,6 @@ echo "  ]"
 echo "}"
 
 # Restore stdout to the terminal (optional, but good practice if more script follows)
-exec > /dev/tty
+#exec > /dev/tty
 
-echo "JSON data saved to dbinfo.json with version: $version_db"
+echo "JSON data saved to dbinfo.json with version: $version_db" > /dev/tty
