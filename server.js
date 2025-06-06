@@ -1,7 +1,8 @@
 require('dotenv').config(); // Load .env file variables into process.env
 
 const express = require("express");
-//~ const fs = require('fs');
+
+const cacheJsonMiddleware = require('./cache'); // Import the cache middleware
 
 const app = express();
 
@@ -41,7 +42,8 @@ app.use('/images', express.static("static/images"));
 // Make static credits.md available
 app.use('/credits.md', express.static("static/credits.md"))
 
-app.get("/database/allplants", fetchAllPlants)
+
+app.get("/database/allplants", cacheJsonMiddleware(), fetchAllPlants)
 
 
 async function fetchAllPlants (req, res) {
@@ -68,24 +70,6 @@ async function fetchAllPlants (req, res) {
     }
 }
 
-
-app.get("/database/allbiblio", fetchAllBiblio)
-
-
-async function fetchAllBiblio (req, res) {
-  let conn;
-    try {
-      conn = await pool.getConnection();
-      const biblio = await conn.query("SELECT * FROM `Bibliography` ORDER BY refId ASC");      
-      
-      res.json(biblio) // or res.sendFile(dbdump)
-        
-    } catch (err) {
-      console.error(err);
-    } finally {
-      if (conn) conn.release(); // Release the connection back to the pool
-    }
-}
 
 /**
  * Converts internal wiki-like links to Druidnet deep links.
@@ -132,5 +116,24 @@ function convertPlantLinks(text) {
   } else {
     return text; // Return the original text if it's falsy
   }
-
 }
+
+
+app.get("/database/allbiblio", cacheJsonMiddleware(), fetchAllBiblio)
+
+
+async function fetchAllBiblio (req, res) {
+  let conn;
+    try {
+      conn = await pool.getConnection();
+      const biblio = await conn.query("SELECT * FROM `Bibliography` ORDER BY refId ASC");      
+      
+      res.json(biblio) // or res.sendFile(dbdump)
+        
+    } catch (err) {
+      console.error(err);
+    } finally {
+      if (conn) conn.release(); // Release the connection back to the pool
+    }
+}
+
