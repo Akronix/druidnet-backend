@@ -19,7 +19,7 @@ function readVersionDB () {
     }
         
     try {
-        versionDB = parseInt(JSON.parse(fileContent).versiondb);
+        versionDB = JSON.parse(fileContent).versionDB;
         console.log(`[Cache] Initial versionDB: ${currentVersionDB}`);
     } catch (err) {
         console.error(`[Cache] Error reading versionDB file: ${err.message}`);
