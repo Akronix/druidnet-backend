@@ -19,12 +19,9 @@ mapfile -t files < <(ls -1 $img_directory | tr -d "\r")
 # This will be used as the value for "versionDB"
 version_db=$(date +%Y%m%d%H%M)
 
-# Save a backup of the previous dbinfo.json
-cp static/dbinfo.json ./dbinfo.json.bck
-
 # Redirect all subsequent echo/printf commands to the dbinfo.json file
 # If the file exists, it will be overwritten.
-exec > ./static/dbinfo.json
+exec > ./static/dbinfo.json.tmp
 
 # Start the JSON object
 echo "{"
@@ -50,6 +47,12 @@ done
 echo "" # Add a newline after the last item for cleaner output
 echo "  ]"
 echo "}"
+
+# Save a backup of the previous dbinfo.json
+cp static/dbinfo.json ./dbinfo.json.bck
+
+# Move the temporary file to the final dbinfo.json
+mv ./static/dbinfo.json.tmp ./static/dbinfo.json
 
 # Restore stdout to the terminal (optional, but good practice if more script follows)
 #exec > /dev/tty

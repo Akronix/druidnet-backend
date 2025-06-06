@@ -1,5 +1,6 @@
 # Akronix's:
 static/
+*.bck
 
 # Logs
 logs
