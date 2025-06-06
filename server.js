@@ -119,14 +119,14 @@ async function fetchAllBiblio (req, res) {
  */
 function convertPlantLinks(text) {
   if (text) {
-    // Regex to match [[ Plant_Name ]] or [[ Plant Name ]]
-    // Group 1: 'Plant_Name' or 'Plant Name' (can contain spaces or underscores)
-    const simpleLinkRegex = /\[\[\s*([A-Za-z0-9\s_]+)\s*\]\]/g;
+    // Updated Regex: Added '-' to the allowed characters in the plant name capture group
+    // Group 1: 'Plant_Name', 'Plant Name', or 'Plant-Name' (can contain spaces, underscores, or hyphens)
+    const simpleLinkRegex = /\[\[\s*([A-Za-z0-9\s_-]+)\s*\]\]/g;
 
-    // Regex to match [[ Plant_Name | Display Name ]] or [[ Plant Name | Display Name ]]
-    // Group 1: 'Plant_Name' or 'Plant Name' (can contain spaces or underscores)
+    // Updated Regex: Added '-' to the allowed characters in the plant name capture group
+    // Group 1: 'Plant_Name', 'Plant Name', or 'Plant-Name'
     // Group 2: 'Display Name'
-    const aliasedLinkRegex = /\[\[\s*([A-Za-z0-9\s_]+)\s*\|\s*([^\]]+?)\s*\]\]/g;
+    const aliasedLinkRegex = /\[\[\s*([A-Za-z0-9\s_-]+)\s*\|\s*([^\]]+?)\s*\]\]/g;
 
     let convertedText = text;
 
@@ -136,7 +136,7 @@ function convertPlantLinks(text) {
         const urlSafePlantName = plantNameRaw.trim().replace(/\s/g, '_');
 
         // 2. For the Display Name: Use the provided displayName, trimmed.
-        return `[${displayName.trim()}](druidnet://druidnet.org/plant_sheet/${encodeURIComponent(urlSafePlantName)})`;
+        return `[${displayName.trim()}](druidnet://druidanet.org/plant_sheet/${encodeURIComponent(urlSafePlantName)})`;
     });
 
     // Process simple links next
@@ -147,11 +147,12 @@ function convertPlantLinks(text) {
         // 2. For the Display Name: Replace underscores with spaces for readability.
         const displayText = plantNameRaw.trim().replace(/_/g, ' ');
 
-        return `[${displayText}](druidnet://druidnet.org/plant_sheet/${encodeURIComponent(urlSafePlantName)})`;
+        return `[${displayText}](druidnet://druidanet.org/plant_sheet/${encodeURIComponent(urlSafePlantName)})`;
     });
 
     return convertedText;
   } else {
     return text; // Return the original text if it's falsy
   }
+
 }
