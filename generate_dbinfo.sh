@@ -19,14 +19,13 @@ mapfile -t files < <(ls -1 $img_directory | tr -d "\r")
 # This will be used as the value for "versionDB"
 version_db=$(date +%Y%m%d%H%M)
 
-# Redirect all subsequent echo/printf commands to the dbinfo.json file
-# If the file exists, it will be overwritten.
-exec > ./static/dbinfo.json.tmp
+# Initialize an empty string variable to hold the full JSON output
+json_output=""
 
-# Start the JSON object
-echo "{"
-echo "  \"versionDB\": $version_db,"
-echo "  \"images\": ["
+# Start the JSON object - append with newlines
+json_output+="{"
+json_output+=$'\n'"  \"versionDB\": $version_db,"
+json_output+=$'\n'"  \"images\": ["
 
 # Loop through the 'files' array to format each filename as a JSON string.
 # We use a counter 'i' to correctly handle commas for all elements except the last one.
@@ -34,25 +33,27 @@ for (( i=0; i<${#files[@]}; i++ )); do
     # Get the current filename
     filename="${files[i]}"
 
-    # Print a comma and newline before each item, except the first one
+    # Append a comma and newline before each item, except the first one
     if [ $i -gt 0 ]; then
-        echo ","
+        json_output+=","
     fi
+    json_output+=$'\n'
 
-    # Print the filename enclosed in double quotes, with indentation
-    printf "    \"%s\"" "$filename"
+    # Append the filename enclosed in double quotes, with indentation
+    # Use printf with command substitution to format the string, then append it
+    formatted_filename=$(printf "    \"%s\"" "$filename")
+    json_output+="$formatted_filename"
 done
 
 # End the "images" array and then the main JSON object
-echo "" # Add a newline after the last item for cleaner output
-echo "  ]"
-echo "}"
+json_output+=$'\n'"  ]"
+json_output+=$'\n'"}"
 
 # Save a backup of the previous dbinfo.json
 cp static/dbinfo.json ./dbinfo.json.bck
 
 # Move the temporary file to the final dbinfo.json
-mv ./static/dbinfo.json.tmp ./static/dbinfo.json
+echo "$json_output" > ./static/dbinfo.json
 
 # Restore stdout to the terminal (optional, but good practice if more script follows)
 #exec > /dev/tty
