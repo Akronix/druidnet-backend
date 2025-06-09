@@ -53,7 +53,11 @@ async function fetchAllPlants (req, res) {
       const plants = await conn.query("SELECT * FROM Plant as p ORDER BY plantId ASC");
       plants.forEach((plant) => plant.toxic = !!plant.toxic)
       let confusions = await conn.query("SELECT * FROM `Confusion`");
-      confusions = confusions.map((confusion) => {confusion.latin_name = convertPlantLinks(confusion.latin_name); confusion.caption_text = convertPlantLinks(confusion.caption_text); return confusion})
+      confusions = confusions.map((confusion) => {
+        confusion.latin_name = convertPlantLinks(confusion.latin_name);
+        confusion.text = convertPlantLinks(confusion.text);
+        confusion.caption_text = convertPlantLinks(confusion.caption_text);
+        return confusion})
       const names = await conn.query("SELECT * FROM `Name`");
       names.forEach ((name) => name.isDisplayName = !!name.isDisplayName)
       let usages = await conn.query("SELECT * FROM `Usage`");
