@@ -85,14 +85,14 @@ async function fetchAllPlants (req, res) {
  */
 function convertPlantLinks(text) {
   if (text) {
-    // Updated Regex: Added '-' to the allowed characters in the plant name capture group
-    // Group 1: 'Plant_Name', 'Plant Name', or 'Plant-Name' (can contain spaces, underscores, or hyphens)
-    const simpleLinkRegex = /\[\[\s*([A-Za-z0-9\s_-]+)\s*\]\]/g;
+    // Updated Regex: Added '-' and '.' to the allowed characters in the plant name capture group
+    // Group 1: 'Plant_Name', 'Plant Name', or 'Plant-Name' (can contain spaces, underscores, hyphens or dots.)
+    const simpleLinkRegex = /\[\[\s*([A-Za-z0-9\s_\.-]+)\s*\]\]/g;
 
-    // Updated Regex: Added '-' to the allowed characters in the plant name capture group
-    // Group 1: 'Plant_Name', 'Plant Name', or 'Plant-Name'
+    // Updated Regex: Added '-' and '.' to the allowed characters in the plant name capture group
+    // Group 1: 'Plant_Name', 'Plant Name', or 'Plant-Name' Or 'Plant spp.'
     // Group 2: 'Display Name'
-    const aliasedLinkRegex = /\[\[\s*([A-Za-z0-9\s_-]+)\s*\|\s*([^\]]+?)\s*\]\]/g;
+    const aliasedLinkRegex = /\[\[\s*([A-Za-z0-9\s_\.-]+)\s*\|\s*([^\]]+?)\s*\]\]/g;
 
     let convertedText = text;
 
