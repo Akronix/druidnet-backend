@@ -42,6 +42,12 @@ app.use('/images', express.static("static/images"));
 // Make static credits.md available
 app.use('/credits.md', express.static("static/credits.md"))
 
+// Make static credits.md available
+app.use('/glossary.md', express.static("static/glossary.md"))
+
+// Make static credits.md available
+app.use('/collecting_recommendations.md', express.static("static/collecting_recommendations.md"))
+
 
 app.get("/database/allplants", cacheJsonMiddleware(), fetchAllPlants)
 
@@ -140,4 +146,3 @@ async function fetchAllBiblio (req, res) {
       if (conn) conn.release(); // Release the connection back to the pool
     }
 }
-

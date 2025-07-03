@@ -1,5 +1,7 @@
 # Akronix's:
-static/
+static/images/
+static/dbinfo.json
+static/credits.md
 *.bck
 
 # Logs
