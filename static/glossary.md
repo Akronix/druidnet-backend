@@ -5,6 +5,8 @@ Bebida medicinal que resulta del cocimiento ligero de una o varias hierbas y otr
 
 Se suele utilizar de manera intercambiable con el término "infusión", aunque una tisana puede requerir un tiempo de reposo más prolongado, o estar constituido de más de una hierba.
 
+Según el órgano de la planta y la planta en sí, cuando incorporarlo al agua hirviendo puede cambiar ligeramente. En términos generales, si es una parte dura (raíz y corteza) conviene dejarla cocer un par de minutos; si es hojas o tallo se ha de echar apagado el fuego, después de que el agua haya empezado a hervir; finalmente, si es una parte más delicada como las flores o ciertas plantas con propiedades muy volátiles, conviene incorporarla al agua pasados unos instantes, cuando ésta esté a menos de 100ºC.
+
 En cuanto a las dosis, aquí unos parámetros generales: Para clasificar las infusiones se utiliza una cucharilla o una cuchara. Salvo indicación contraria, y para un vaso de agua (unos 150 ml), se tomará una cucharada (unos 3 g) cuando se trate de mezclas que contengan fundamentalmente hojas, pedúnculos foliados o flores; y una cucharadita (1,5 g más o menos) cuando tengan sobre todo raíces, tronco, frutos o rizomas.
 
 ### Extracto
@@ -26,9 +28,11 @@ Se filtra la decocción a través de un paño, exprimiendo bien toda el agua, pa
 as decocciones no se almacenan, sino que han de ser elaboradas en el momento de su utilización.
 
 ### Tintura
-Constituyen extractos de _drogas_ vegetales obtenidos con ayuda de diversos disolventes, habitualmente alcohol. Ya su nombre indica que nos referimos a líquidos de distinta coloración según los ingredientes utilizados. Pueden estar preparadas a partir de una única planta, o de varias.
+Constituyen extractos de _drogas_ vegetales obtenidos con ayuda de diversos disolventes, habitualmente alcohol. Suelen ser más potentes que los preparados que se realizan con aceite, pues el alcohol tiene mayor poder para extraer los principios activos de la planta. Ya su nombre indica que nos referimos a líquidos de distinta coloración según los ingredientes utilizados. Pueden estar preparadas a partir de una única planta, o de varias.
 
 Su empleo es a menudo por vía oral, en gotas o en cucharadas; pero también hay de aplicación externa, como ocurre con los gargarismos.
+
+A continuación, detallamos un procedimiento general para la elaboración de una tintura. Se recomienda el uso de alcohol de uso alimentario, el cual permite usarlo tanto por via oral como por vía tópica: Se ponen las hojas secas y troceadas en un recipiento de cristal, se añade alcohol hasta cubrirlas y se cierra herméticamente. Se deja en el exterior durante 30-40 días a “sol y serena” (debe estar sometido a los cambios de temperatura del día y la noche pero, sin recibir la luz del sol, por lo que hay que taparlo). Pasado este período, se cuela con una tela y se guarda en un recipiente limpio alejado de la luz. Guardado en un lugar fresco y oscure, la tintura se puede conservar durante años.
 
 ### Vinagre aromático
 
