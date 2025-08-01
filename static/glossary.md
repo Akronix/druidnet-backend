@@ -55,6 +55,49 @@ Los emplastos son preparados medicinales destinados a ser aplicados sobre la pie
 ### Droga
 Sustancia mineral, vegetal o animal, que se emplea en la medicina, en la industria o en las bellas artes.
 
+<!--
+## Sustancias activas de las plantas medicinales
+
+### Alcaloides
+Los alcaloides son compuestos nitrogenados complejos, de naturaleza básica, que provocan potentes efectos fisiológicos. Se trata, en su mayor parte, de venenos vegetales muy activos.
+
+### Glucósidos
+
+### Saponinas
+
+### Taninos
+
+### Mucílagos
+
+### Antisépticos vegetales
+Sustacias antibióticas de amplio espectro producidas por las plantas. Suelen ser inestables y volátiles.
+-->
+
+## Efectos de las plantas medicinales
+### Astringente
+Actúan sobre las mucosas o la epidermis, formando un precipitado sólido con el tejido proteico. También drenan el tejido, provocando una acción anti-inflamatoria. Suelen estar compuestas principalmente de _taninos_.
+
+### Carminativa
+Ejercen una benéfica influencia sobre la evacuación de los gases intestinales, las contracciones dolorosas y los calambres de los músculos lisos intestinales.
+
+### Sudorífica
+Plantas que favorecen la transpiración.
+
+### Diurética
+Favorecen la eliminación de la orina. Son útiles frente a las afecciones de las vías urinarias; además, son ligeramente desinfectantes. Adecuadas para casos de ligeras afecciones renales, de pequeños cálculos o de sedimentos en la orina. En caso de padecer una afección renal más importante, puede ser contraproducente.
+
+### Expectorante
+Actúan sobre el aparato respiratorio.
+
+### Laxante
+Aceleran la evacuación intestinal.
+
+### Cardiotónica
+Aceleran el ritmo cardíaco.
+
+### Antiespasmódica
+Actúan contra los espasmos bronquiales que acompañan al asma.
+
 ## Material de consulta y bibliografía
 - Diccinario de la Real Academia Española (RAE)
 - Gran Enciclopedia de Plantas Medicinales, Aromáticas y Culinarias. Aplicaciones y efectos. Servilibro. 1965.
