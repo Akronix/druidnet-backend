@@ -19,12 +19,20 @@ mapfile -t files < <(ls -1 $img_directory | tr -d "\r")
 # This will be used as the value for "versionDB"
 version_db=$(date +%Y%m%d%H%M)
 
+# Set last version of the glossary
+versionGlossary=202508132306
+
+# Set last version of the glossary
+versionRecommendations=0
+
 # Initialize an empty string variable to hold the full JSON output
 json_output=""
 
 # Start the JSON object - append with newlines
 json_output+="{"
 json_output+=$'\n'"  \"versionDB\": $version_db,"
+json_output+=$'\n'"  \"versionGlossary\": $versionGlossary,"
+json_output+=$'\n'"  \"versionRecommendations\": $versionRecommendations,"
 json_output+=$'\n'"  \"images\": ["
 
 # Loop through the 'files' array to format each filename as a JSON string.
