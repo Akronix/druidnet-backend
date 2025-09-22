@@ -20,7 +20,7 @@ mapfile -t files < <(ls -1 $img_directory | tr -d "\r")
 version_db=$(date +%Y%m%d%H%M)
 
 # Set last version of the glossary
-versionGlossary=202508132306
+versionGlossary=202509221936
 
 # Set last version of the glossary
 versionRecommendations=0

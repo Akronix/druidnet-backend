@@ -1,5 +1,8 @@
 ## Preparados medicinales
 
+### Droga
+Sustancia mineral, vegetal o animal, que se emplea en la medicina, en la industria o en las bellas artes.
+
 ### Tisana
 Bebida medicinal que resulta del cocimiento ligero de una o varias hierbas y otros ingredientes en agua.
 
@@ -52,26 +55,7 @@ Tópico de consistencia blanda, que se aplica para varios efectos medicinales, y
 ### Emplasto
 Los emplastos son preparados medicinales destinados a ser aplicados sobre la piel. Se adhieren y reblandecen al contacto con la piel.
 
-### Droga
-Sustancia mineral, vegetal o animal, que se emplea en la medicina, en la industria o en las bellas artes.
-
-<!--
-## Sustancias activas de las plantas medicinales
-
-### Alcaloides
-Los alcaloides son compuestos nitrogenados complejos, de naturaleza básica, que provocan potentes efectos fisiológicos. Se trata, en su mayor parte, de venenos vegetales muy activos.
-
-### Glucósidos
-
-### Saponinas
-
-### Taninos
-
-### Mucílagos
-
-### Antisépticos vegetales
-Sustacias antibióticas de amplio espectro producidas por las plantas. Suelen ser inestables y volátiles.
--->
+<hr/>
 
 ## Efectos de las plantas medicinales
 ### Astringente
@@ -98,6 +82,27 @@ Aceleran el ritmo cardíaco.
 ### Antiespasmódica
 Actúan contra los espasmos bronquiales que acompañan al asma.
 
+<hr/>
+
 ## Material de consulta y bibliografía
 - Diccinario de la Real Academia Española (RAE)
 - Gran Enciclopedia de Plantas Medicinales, Aromáticas y Culinarias. Aplicaciones y efectos. Servilibro. 1965.
+
+
+<!--
+## Sustancias activas de las plantas medicinales
+
+### Alcaloides
+Los alcaloides son compuestos nitrogenados complejos, de naturaleza básica, que provocan potentes efectos fisiológicos. Se trata, en su mayor parte, de venenos vegetales muy activos.
+
+### Glucósidos
+
+### Saponinas
+
+### Taninos
+
+### Mucílagos
+
+### Antisépticos vegetales
+Sustacias antibióticas de amplio espectro producidas por las plantas. Suelen ser inestables y volátiles.
+-->
