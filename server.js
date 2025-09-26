@@ -4,6 +4,8 @@ const express = require("express");
 
 const cacheJsonMiddleware = require('./cache'); // Import the cache middleware
 
+const uap = require('ua-parser-js'); // To detect the OS of the client
+
 const app = express();
 
 const hostname = process.env.HOSTNAME;
@@ -146,3 +148,23 @@ async function fetchAllBiblio (req, res) {
       if (conn) conn.release(); // Release the connection back to the pool
     }
 }
+
+app.get("/qr", function (req, res) {
+  // get user-agent header
+    let ua = uap(req.headers['user-agent']);
+
+    if (ua.os.name === 'iOS') {
+      // Redirect to the iOS app link
+      res.send('https://druidnet.es/ios-app/');
+      return;
+    } else if (ua.os.name === 'Android') {
+      // Redirect to the Android app link
+      res.redirect('https://play.google.com/store/apps/details?id=org.druidanet.druidnet');
+      return;
+    } else {
+      // Redirect to a generic page or show a message
+      res.redirect('https://druidnet.es/');
+      return;
+    }
+
+});
