@@ -58,16 +58,42 @@ Los emplastos son preparados medicinales destinados a ser aplicados sobre la pie
 <hr/>
 
 ## Efectos de las plantas medicinales
+
+### Analgésico
+(Del griego, _an_, privación, y _álgos_ dolor).
+Calman el dolor.
+
+### Antiespasmódica
+(De _anti_ y _espasmo_).
+Calman o curan los espasmos o contracciones musculares y nerviosas. Como, por ejemplo, los espasmos bronquiales que acompañan al asma.
+
+### Antihelmítico
+(De _anti_ contra y del griego _hélminthos_ lombriz).
+Destruyen o provocan la salida de gusanos parásitos.
+
+### Antipirético
+(De _anti_ contra y del griego _pyretós_ fiebre).
+Que combaten la fiebre.
+
+### Antiséptico
+(De _anti_ contra y del griego _septikós_, que engendra putrefacción ).
+Combaten o previenen los microbios que causan infecciones.
+
 ### Astringente
-Actúan sobre las mucosas o la epidermis, formando un precipitado sólido con el tejido proteico. También drenan el tejido, provocando una acción anti-inflamatoria. Suelen estar compuestas principalmente de _taninos_.
+(Del latín _strigere_, apretar).
+Apretan, estrechan, o contraen los tejidos orgánicos. En particular, se suelen refererir a sustancias que causan estreñimiento. Habitualmente están compuestas de _taninos_.
+
+### Cardiotónica
+Aceleran el ritmo cardíaco.
 
 ### Carminativa
 Ejercen una benéfica influencia sobre la evacuación de los gases intestinales, las contracciones dolorosas y los calambres de los músculos lisos intestinales.
 
-### Sudorífica
-Plantas que favorecen la transpiración.
+### Depurativo
+Que purifica el organismo, y, principalmente, la sangre.
 
 ### Diurética
+(Del griego _diourein_, orinar).
 Favorecen la eliminación de la orina. Son útiles frente a las afecciones de las vías urinarias; además, son ligeramente desinfectantes. Adecuadas para casos de ligeras afecciones renales, de pequeños cálculos o de sedimentos en la orina. En caso de padecer una afección renal más importante, puede ser contraproducente.
 
 ### Expectorante
@@ -76,13 +102,35 @@ Actúan sobre el aparato respiratorio.
 ### Laxante
 Aceleran la evacuación intestinal.
 
-### Cardiotónica
-Aceleran el ritmo cardíaco.
+### Sudorífica
+Plantas que favorecen la transpiración.
 
-### Antiespasmódica
-Actúan contra los espasmos bronquiales que acompañan al asma.
+### Tónico
+(Del griego tónoos, tensión).
+Ejercen un efecto beneficioso sobre el tono o estado básico del organismo.
+
+### Vermífugo
+(Del latín _vermis_, gusano, y _fugere_, ahuyentar).
+Expulsan a los gusanos que parasitan en el intestino.
+
+### Vulneraria
+(Del latín _vulnus_, herida).
+Se aplican para curar las heridas.
 
 <hr/>
+
+## Descripción botánica
+### Amento
+(Del latín _amentum_, correa).
+Inflorescencia colgante en racimo denso, formado por flores unisexuales y desprovistas de corola, como por ejemplo las de álamos, avellanos, sauces y abedules.
+
+### Aquenio
+(Del _a_ privación, y del griego _khaino_, abrirse).
+Fruto seco, indehiscente, con una sola semilla y con pericarpio no soldado a ella. Por ejemplo, las pipas de girasol o las bellotas.
+
+### Corola
+(Del latín _corollan_, corona pequeña).
+Conjunto de petálos de una flor. 
 
 ## Material de consulta y bibliografía
 - Diccinario de la Real Academia Española (RAE)
@@ -100,6 +148,7 @@ Los alcaloides son compuestos nitrogenados complejos, de naturaleza básica, que
 ### Saponinas
 
 ### Taninos
+Compuesto orgánico que tiene la propiedad de insolubilizar la gelatina de la piel, convirtiéndola en cuero.
 
 ### Mucílagos
 
