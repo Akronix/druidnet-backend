@@ -128,9 +128,47 @@ Inflorescencia colgante en racimo denso, formado por flores unisexuales y despro
 (Del _a_ privación, y del griego _khaino_, abrirse).
 Fruto seco, indehiscente, con una sola semilla y con pericarpio no soldado a ella. Por ejemplo, las pipas de girasol o las bellotas.
 
+### Arilo
+Envoltura, casi siempre carnosa y de colores vivos, que tienen algunas semillas, como las del tejo.
+
+### Bráctea
+(Del latín _bractea_, hoja de metal).
+Hoja que nace del pedúnculo de las flores de ciertas plantas, y suele diferir de la hoja verdadera por la forma, la consistencia y el color.
+
+### Cáliz
+(Del latín _calix_, copa pequeña).
+Verticilo externo de las flores completas, casi siempre formado por hojas verdosas y más a menudo recias.
+
 ### Corola
 (Del latín _corollan_, corona pequeña).
 Conjunto de petálos de una flor. 
+
+### Envés
+(Del latín _inversum_, revés).
+Cara inferior de las hojas.
+
+### Foliolo
+(Del latín _foliolum_, diminutivo de _folium_, hoja).
+División elmental de una hoja compuesta.
+
+### Inflorescencia
+(Del latín _in_, en y _florescencia_).
+Ramificación de flores.
+
+### Infrutescencia
+(Del latín _in_, en y _frutescencia_).
+ Fructificación formada por agrupación de varios frutillos con apariencia de unidad.
+
+### Lanceolada
+(Del latín _lanceolatus_).
+Dicho de una hoja o de sus lóbulos: con forma de punta de lanza.
+
+### Panícula
+Inflorescencia formada por racimos de racimos, que ofrece un aspecto piramidal o de espiga.
+
+### Pecíolo
+Pie más o menos semejante a un tallo que soporta y une la lámina de la hoja.
+
 
 ## Material de consulta y bibliografía
 - Diccinario de la Real Academia Española (RAE)
@@ -138,6 +176,18 @@ Conjunto de petálos de una flor.
 
 
 <!--
+
+A añadir cuando se actualice def. en la RAE:
+- Arilo
+- Coriáceo (del latín _corium_, cuero)
+- Dioico (del griego _dyos_ dos y _oikos_, casa)
+- Foliolo
+- Glauco
+- Glabro
+- Inflorescencia
+- Monoico
+- Panicula.
+
 ## Sustancias activas de las plantas medicinales
 
 ### Alcaloides
