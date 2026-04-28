@@ -1,3 +1,8 @@
+## Precauciones generales
+_Los usos comestibles o medicinales por vía oral durante el embarazo, lactancia y niños, deben tomarse con especial precaución, puesto que no hay estudios científicos suficientes que demuestren su inocuidad en estos casos._
+
+_Siempre es responsabilidad de cada quién decidir sobre su cuerpo y qué sustancias incopora en él._
+
 ## Cómo recolectar plantas silvestres
 A continuación, desarrollamos algunos consejos sobre cómo recolectar plantas silvestres. **No olvides que cualquier consumo que hagas de ellas, es bajo tu responsabilidad**.
 

@@ -1,37 +1,42 @@
 ## Preparados medicinales
 
-### Droga
-Sustancia mineral, vegetal o animal, que se emplea en la medicina, en la industria o en las bellas artes.
+Los principios medicinales de las diferentes plantas se pueden conseguir a través de muy diversos procedimientos. Cada planta tiene sus peculiaridades y su modo óptimo de preparación.
 
-### Tisana
+### Infusión y Tisana
 Bebida medicinal que resulta del cocimiento ligero de una o varias hierbas y otros ingredientes en agua.
 
-Se suele utilizar de manera intercambiable con el término "infusión", aunque una tisana puede requerir un tiempo de reposo más prolongado, o estar constituido de más de una hierba.
+Los términos "tisana" e "infusión", se suelen utilizar de manera intercambiable. Aunque hay alguna diferencia técnica entre ellas: la infusión sería sumergir hierbas en agua caliente, sin que haya llegado a hervir; mientras que la tisana sería usando agua recién hervida y dejando reposar un tiempo.
 
-Según el órgano de la planta y la planta en sí, cuando incorporarlo al agua hirviendo puede cambiar ligeramente. En términos generales, si es una parte dura (raíz y corteza) conviene dejarla cocer un par de minutos; si es hojas o tallo se ha de echar apagado el fuego, después de que el agua haya empezado a hervir; finalmente, si es una parte más delicada como las flores o ciertas plantas con propiedades muy volátiles, conviene incorporarla al agua pasados unos instantes, cuando ésta esté a menos de 100ºC.
+Según el órgano de la planta y la planta en sí, cuando incorporarlo al agua hirviendo puede cambiar ligeramente. En términos generales, si es una parte dura (raíz y corteza) conviene dejarla cocer un par de minutos; si es hojas o tallo se ha de echar después de que el agua haya empezado a hervir y con el fuego apagado; finalmente, si es una parte más delicada como las flores o ciertas plantas con propiedades muy volátiles, conviene incorporarla al agua pasados unos instantes, cuando ésta esté a menos de 100ºC.
 
 En cuanto a las dosis, aquí unos parámetros generales: Para clasificar las infusiones se utiliza una cucharilla o una cuchara. Salvo indicación contraria, y para un vaso de agua (unos 150 ml), se tomará una cucharada (unos 3 g) cuando se trate de mezclas que contengan fundamentalmente hojas, pedúnculos foliados o flores; y una cucharadita (1,5 g más o menos) cuando tengan sobre todo raíces, tronco, frutos o rizomas.
 
 ### Extracto
-La extracción es un proceso que incorpora las sustancias activas de una _droga_ en un determinado líquido, en forma de disolución. Puede desarrollarse en frío o en caliente, con agua, con alcohol o con otros disolventes. A veces el extracto obtenido se espesa o concentra. Se emplean, bien directamente en gotas, o bien en forma de diversas mezclas.
+La extracción es un proceso que incorpora las sustancias activas de una planta concentradas en un determinado líquido, en forma de disolución. Puede desarrollarse en frío o en caliente, con agua, con alcohol o con otros disolventes. A veces el extracto obtenido se espesa o concentra. Se emplean, bien directamente en gotas, o bien en forma de diversas mezclas.
 
 ### Maceración
-Se trata de un proceso de extracción a temperatura ambiente (de 15° a 20°C). Puede utilizarse agua, alcohol, o a veces, vino.
+Se trata de un procedimiento por el cual se extraen los principios activos al sumergir la planta por un periodo de tiempo en un líquido.
 
-El tiempo de maceración depende de las propiedades intrínsecas de la _droga_; la maceración en agua no debe alargarse durante demasiado tiempo, con el fin de evitar una posible fermentación o formación de moho. Las drogas con que contienen mucílagos se deberán macerar durante media hora aproximadamente; y las aromáticas o amargas entre dos y doce horas. Salvo prescripción médica, las maceraciones se preparan a razón de una parte de planta por veinte de agua o de alcohol. En general, el tiempo de maceración se da en horas.
+Generalmente se hace a temperatura ambiente (de 15° a 20 °C), y como líquidos se usa agua, fría o caliente según el caso; o a veces,también se puede usar alcohol o vino.
+
+El tiempo de maceración depende de las propiedades intrínsecas de la planta; la maceración en agua no debe alargarse durante demasiado tiempo, con el fin de evitar una posible fermentación o formación de moho. El tiempo habitual suele oscilar entre media hora y doce horas. Las plantas que contienen mucílagos se deberán macerar durante media hora aproximadamente; y las aromáticas o amargas entre dos y doce horas. Salvo prescripción médica, las maceraciones se preparan a razón de una parte de planta por veinte de agua o de alcohol. En general, el tiempo de maceración se da en horas.
 
 ### Percolación
 Se trata de una extracción a temperatura ambiente (de 15° a 20 °C), por medio de un líquido que circula. Es el procedimiento normal de extracción de las sustancias tóxicas.
 
 ### Decocción
-Se trata de una extracción en agua, con un cierto tiempo de ebullición, más prolongado que una infusión o _tisana_. Las partes vegetales correctamente fraccionadas (raíces, hojas, flores,...) son sumergidas en agua potable, calentadas y hervidas durante unos 15 minutos. Las partes duras son hervidas durante un tiempo de hasta una hora, teniendo cuidado de reponer el agua evaporada.
+Se trata de una extracción en agua, con un cierto tiempo de ebullición, más prolongado que una infusión o _tisana_. 
 
-Se filtra la decocción a través de un paño, exprimiendo bien toda el agua, para a continuación ajustar el nivel del líquido mediante una probeta graduada. Al igual que en la infusión, se añade una parte de _droga_ a cada diez de agua, excepto para las _drogas_ con mucílagos en las que la proporción es de una parte de _droga_ por veinte de agua.
+Se usa para partes más duras de la planta (corteza, raíces, ramas, semillas, etc.), ya que por sus características, los principios activos no se pueden obtener a través de una infusión.
 
-as decocciones no se almacenan, sino que han de ser elaboradas en el momento de su utilización.
+El procedimiento consiste en poner las partes vegetales a utilizar correctamente fraccionadas en agua potable, calentarlas y hervirlas durante unos 15-20 minutos, según la planta. Las partes duras pueden ser hervidas durante un tiempo de hasta una hora, teniendo cuidado de reponer el agua evaporada.
+
+Se filtra la decocción a través de un paño, exprimiendo bien toda el agua, para a continuación ajustar el nivel del líquido mediante una probeta graduada. Al igual que en la infusión, se añade una parte de la planta a cada diez de agua, excepto para las plantas con mucílagos en las que la proporción es de una parte de la planta por veinte de agua.
+
+Las decocciones no se almacenan, sino que han de ser elaboradas en el momento de su utilización.
 
 ### Tintura
-Constituyen extractos de _drogas_ vegetales obtenidos con ayuda de diversos disolventes, habitualmente alcohol. Suelen ser más potentes que los preparados que se realizan con aceite, pues el alcohol tiene mayor poder para extraer los principios activos de la planta. Ya su nombre indica que nos referimos a líquidos de distinta coloración según los ingredientes utilizados. Pueden estar preparadas a partir de una única planta, o de varias.
+Constituyen extractos de los principios activos vegetales obtenidos con ayuda de diversos disolventes, habitualmente alcohol. Suelen ser más potentes que los preparados que se realizan con aceite, pues el alcohol tiene mayor poder para extraer los principios activos de la planta. Ya su nombre indica que nos referimos a líquidos de distinta coloración según los ingredientes utilizados. Pueden estar preparadas a partir de una única planta, o de varias.
 
 Su empleo es a menudo por vía oral, en gotas o en cucharadas; pero también hay de aplicación externa, como ocurre con los gargarismos.
 
@@ -42,18 +47,25 @@ A continuación, detallamos un procedimiento general para la elaboración de una
 Se trata de tinturas a base de alochol y vinagre.
 
 ### Jarabe
-Se trata de soluciones concentradas de azúcar en agua o en extractos de _droga_ que, por otra parte, pueden contener a su vez otras sustancias. Su utilización es por vía oral.
+Se trata de soluciones concentradas de las sustancias de la planta en azúcar con agua que, por otra parte, pueden contener a su vez otras sustancias. Su utilización es por vía oral.
 
 ### Ungüento
 Son preparados de aplicación exterior y a temperatura ambiente. Se emplean extendiéndolos sobre la epidermis, las mucosas o tejidos dañados.
 
-Los ungüentos están formados por la hierba medicinal o _droga_ y un soporte graso (como cera de abeja, algún tipo de aceite vegetal, vaselina lanolina,...). Hay ungüentos de diferente consistencia y, en cosmética, las cremas, que no son más que ungüentos finos, de variada consistencia y con más del 10% de contenido de agua.
+Los ungüentos están formados por la hierba medicinal y un soporte graso (como cera de abeja, algún tipo de aceite vegetal, vaselina lanolina,...). Hay ungüentos de diferente consistencia y, en cosmética, las cremas, que no son más que ungüentos finos, de variada consistencia y con más del 10% de contenido de agua.
 
 ### Cataplasma
-Tópico de consistencia blanda, que se aplica para varios efectos medicinales, y más particularmente el que es calmante o emoliente.
+Consiste en poner sobre la piel un tópico blando elaborado a partir de ciertas plantas indicadas. Se aplica para conseguir varios efectos medicinales, como: calmante, emoliente, cicatrizante o desinfectante.
+
+Es preferible que la cataplasma tenga una temperatura superior a la del cuertpo, pero sin que sobrepase los 50ºC, esto suma a las propiedades la acción del calor que, además, abre los poros y facilita su absorción.
 
 ### Emplasto
 Los emplastos son preparados medicinales destinados a ser aplicados sobre la piel. Se adhieren y reblandecen al contacto con la piel.
+
+### Maniluvio y Pediluvio
+Los maniluvios y pediluvios son baños terapéuticos de manos y pies, respectivamente. Los principios activos se absorben por ósmosis. De manera que atraviesan la piel y son capaces de llegar al torrente sanguíneo desde donde se distribuyen por todo el organismo.
+
+Los pediluvios deben hacerse, preferiblemente, por la mañana y en ayunas. Una vez preparado el baño, los pies deben mantenerse en él durante unos 10 minutos. Siempre son más eficaces si se combinan baños calientes con baños fríos.
 
 <hr/>
 
@@ -173,6 +185,7 @@ Pie más o menos semejante a un tallo que soporta y une la lámina de la hoja.
 ## Material de consulta y bibliografía
 - Diccinario de la Real Academia Española (RAE)
 - Gran Enciclopedia de Plantas Medicinales, Aromáticas y Culinarias. Aplicaciones y efectos. Servilibro. 1965.
+- Hierbas curativas. Carmen San José y otros. Editorial LIBSA. 2017.
 
 
 <!--
@@ -180,6 +193,7 @@ Pie más o menos semejante a un tallo que soporta y une la lámina de la hoja.
 A añadir cuando se actualice def. en la RAE:
 - Arilo
 - Coriáceo (del latín _corium_, cuero)
+- Corimbo (tipo de disposición de inflorescencia)
 - Dioico (del griego _dyos_ dos y _oikos_, casa)
 - Foliolo
 - Glauco
