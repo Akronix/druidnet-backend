@@ -146,3 +146,24 @@ async function fetchAllBiblio (req, res) {
       if (conn) conn.release(); // Release the connection back to the pool
     }
 }
+
+app.get("/database/allbiblioAndRefs", cacheJsonMiddleware(), fetchAllBiblioAndRefs)
+
+
+async function fetchAllBiblioAndRefs (req, res) {
+  let conn;
+    try {
+      conn = await pool.getConnection();
+      const biblio = await conn.query("SELECT * FROM `Bibliography` ORDER BY refId ASC");
+      const refs = await conn.query("SELECT * FROM `Plant_References` ORDER BY refId ASC");
+
+      const biblioRes = {biblio, refs}  
+      res.json(biblioRes)
+        
+    } catch (err) {
+      console.error(err);
+    } finally {
+      if (conn) conn.release(); // Release the connection back to the pool
+    }
+}
+
