@@ -155,7 +155,7 @@ async function fetchAllBiblioAndRefs (req, res) {
     try {
       conn = await pool.getConnection();
       const biblio = await conn.query("SELECT * FROM `Bibliography` ORDER BY refId ASC");
-      const refs = await conn.query("SELECT * FROM `Plant_References` ORDER BY refId ASC");
+      const refs = await conn.query("SELECT * FROM `Plant_References` ORDER BY plantId ASC");
 
       const biblioRes = {biblio, refs}  
       res.json(biblioRes)
